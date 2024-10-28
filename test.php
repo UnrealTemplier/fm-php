@@ -1,14 +1,6 @@
 <?php
 
-$name = "Max";
-$year = 2024;
-$booleanValue = true;
-$nullValue = null;
+$varName = "title";
+$$varName = "Page Title";
 
-echo $name;
-echo "\n";
-echo $year;
-echo "\n";
-
-$name = 5;
-echo $name;
+echo $title;
