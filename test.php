@@ -1,13 +1,14 @@
-Hello, world
-
 <?php
-    echo "Hello, world!";
-?>
 
-Another string output
+$name = "Max";
+$year = 2024;
+$booleanValue = true;
+$nullValue = null;
 
-<?php
-echo "Another php tag output...";
-?>
+echo $name;
+echo "\n";
+echo $year;
+echo "\n";
 
-Another another string output
+$name = 5;
+echo $name;
