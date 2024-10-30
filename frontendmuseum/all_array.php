@@ -24,8 +24,7 @@
             fetchpriority="high"></h1>
     <main>
         <?php
-        $json = file_get_contents("data/data.json");
-        $exhibits = json_decode($json, true);
+        require_once "data/data.php";
 
         if (!$exhibits) {
             echo "Error! exhibits array doesn't exist.";
