@@ -1,7 +1,7 @@
 <?php
 
 class CryptoConverter {
-    public string $currencyCode;
+    private string $currencyCode;
 
     function __construct(string $currencyCode) {
         $this->currencyCode = $currencyCode;
