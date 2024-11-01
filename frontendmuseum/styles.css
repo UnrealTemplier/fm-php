@@ -1,7 +1,30 @@
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: sans-serif;
     padding: 0 40px;
+}
+
+#master li {
+    list-style: square;
+    color: white;
+}
+
+#master a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px;
+}
+
+#master a:hover {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: black;
+    display: inline-block;
+    margin: 2px;
 }
 
 article {
